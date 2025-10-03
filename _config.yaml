@@ -4,13 +4,8 @@ description: Website under construction
 baseurl: ""          # leave blank for username.github.io root
 url: "https://rottenstea.github.io"
 
-# Use Forty theme
-remote_theme: andrewbanchich/forty-jekyll-theme
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
+theme: jekyll-theme-minimal
 
 # Navigation / pages
 nav:

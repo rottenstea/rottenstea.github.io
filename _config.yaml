@@ -1,11 +1,11 @@
 # Site settings
 title: Alena Rottensteiner
-description: A site with tabs and contact page
+description: Website under construction
 baseurl: ""          # If your site is at username.github.io, keep this blank. If in a subfolder, set appropriately.
-url: "https://<your-username>.github.io"    # change to your own site URL
+url: "https://rottenstea.github.io"    # change to your own site URL
 
 # Theme
-theme: minima        # you can choose a different Jekyll theme if you like
+theme: jekyll-theme-minimal        # you can choose a different Jekyll theme if you like
 
 # Navigation / pages
 # We'll define a navigation menu for use in layouts

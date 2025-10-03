@@ -5,7 +5,7 @@ baseurl: ""          # leave blank for username.github.io root
 url: "https://rottenstea.github.io"
 
 # Theme
-theme: jekyll-theme-minimal
+theme: jekyll-theme-forty
 
 # Navigation / pages
 nav:

@@ -1,5 +1,5 @@
 # Site settings
-title: My Website
+title: Alena Rottensteiner
 description: A site with tabs and contact page
 baseurl: ""          # If your site is at username.github.io, keep this blank. If in a subfolder, set appropriately.
 url: "https://<your-username>.github.io"    # change to your own site URL
@@ -20,8 +20,3 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# Optional: exclude files / directories from building
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock

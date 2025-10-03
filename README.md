@@ -1,4 +1,15 @@
-# rottenstea.github.io
+# My Website
 
+This repository holds a Jekyll-based GitHub Pages site.
 
-Test 1 2 3
+## Structure / Navigation
+
+We define a navigation menu in `_config.yml`, like:
+
+```yaml
+nav:
+  - title: Home
+    url: "/"
+  - title: Contact
+    url: "/contact/"
+

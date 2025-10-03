@@ -1,3 +1,27 @@
-title: My GitHub Pages Site
-description: A simple site hosted with GitHub Pages
-theme: minima
+# Site settings
+title: My Website
+description: A site with tabs and contact page
+baseurl: ""          # If your site is at username.github.io, keep this blank. If in a subfolder, set appropriately.
+url: "https://<your-username>.github.io"    # change to your own site URL
+
+# Theme
+theme: minima        # you can choose a different Jekyll theme if you like
+
+# Navigation / pages
+# We'll define a navigation menu for use in layouts
+nav:
+  - title: Home
+    url: "/"
+  - title: Contact
+    url: "/contact/"
+
+# Markdown / plugins config
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Optional: exclude files / directories from building
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

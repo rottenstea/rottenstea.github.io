@@ -1,17 +1,20 @@
 # Site settings
 title: Alena Rottensteiner
 description: Website under construction
-baseurl: ""          # If your site is at username.github.io, keep this blank. If in a subfolder, set appropriately.
-url: "https://rottenstea.github.io"    # change to your own site URL
+baseurl: ""          # leave blank for username.github.io root
+url: "https://rottenstea.github.io"
 
 # Theme
-theme: jekyll-theme-minimal        # you can choose a different Jekyll theme if you like
+theme: jekyll-theme-minimal
 
 # Navigation / pages
-# We'll define a navigation menu for use in layouts
 nav:
   - title: Home
     url: "/"
+  - title: About
+    url: "/about/"
+  - title: CV
+    url: "/cv/"
   - title: Contact
     url: "/contact/"
 
@@ -19,4 +22,3 @@ nav:
 markdown: kramdown
 kramdown:
   input: GFM
-
